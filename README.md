@@ -78,18 +78,4 @@ Copy code
 cd ../backend
 npm run dev
 Backend will run at http://localhost:5000.
-microsoft__sso/
-├── frontend/
-│   ├── src/
-│   │   ├── components/  # React components (Login, Profile, etc.)
-│   │   ├── utils/       # Utility functions for MSAL
-│   │   ├── App.tsx
-│   │   ├── index.tsx
-│   └── package.json
-├── backend/
-│   ├── src/
-│   │   ├── routes/      # API routes for authentication and profile
-│   │   ├── models/      # MongoDB schemas
-│   │   ├── server.ts    # Fastify server setup
-│   └── package.json
-└── README.md
+
