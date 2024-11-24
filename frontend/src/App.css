@@ -1,0 +1,42 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('C:\Users\abhinav\OneDrive\Desktop\poc\my-poc-frontend\src\images\color4bg_2024-11-16 10_13_13.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.App-header {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 20px; /* Adjusted for consistency */
+  text-align: center; /* Center text in the header */
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  margin-top: 10px; 
+}
+
+.socialicons {
+  cursor: pointer;
+  color: #0078D4; 
+  transition: transform 0.2s; 
+}
+
+.socialicons:hover {
+  transform: scale(1.1); /* Hover effect for social icons */
+}
