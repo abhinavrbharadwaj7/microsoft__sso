@@ -39,7 +39,7 @@ Ensure the following tools are installed on your system:
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+###  Clone the Repository
 bash
 git clone https://github.com/abhinavrbharadwaj7/microsoft__sso.git
 cd microsoft__sso
@@ -54,7 +54,7 @@ env
 Copy code
 MONGO_URI=mongodb://localhost:27017/microsoft_sso
 PORT=5000
-3. Install Dependencies
+###3. Install Dependencies
 Frontend
 bash
 Copy code
@@ -65,7 +65,7 @@ bash
 Copy code
 cd ../backend
 npm install
-4. Start the Applications
+###4. Start the Applications
 Frontend
 bash
 Copy code
